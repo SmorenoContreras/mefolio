@@ -1,0 +1,61 @@
+
+
+body, html {
+  height: 100%;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  flex: auto;
+  flex-direction: column;
+  
+}
+
+
+/* Place text in the middle of the image */
+.headtext {
+flex: auto;
+text-align: center;
+position: static;
+color: rgb(0, 0, 0);
+text-shadow:
+1px 1px 1px rgb(255, 255, 255),
+2px 2px 1px rgb(255, 255, 255);
+}
+
+
+body {
+  background-color: rgb(182, 240, 240);
+}
+
+img {
+  max-width: 300px;
+  max-height: 390px;
+  align-items: center;
+}
+
+nav {
+
+  flex: auto;
+  flex-direction: column;
+}
+
+.aboutme {
+  background-color: rgb(182, 240, 240);
+}
+
+.title {
+  nav-index: auto;
+}
+
+.content {
+  flex: auto;
+  display: show;
+  padding: 5px 5px;
+  border: 5px solid #ccc;
+  margin: 10px;
+}
+
+
